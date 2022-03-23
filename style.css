@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: hsl(240deg 19% 41%);
+  font-family: Roboto;
+}
+.wrapper {
+  margin: 10vh auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section {
+  height: 5rem;
+  width: auto;
+}
+.big {
+  transform: scale(1.2);
+  width: 7rem;
+  height: 5rem;
+  background-color: #252525;
+  padding: 1.5rem;
+}
+.images {
+  height: 5rem;
+  width: 6rem;
+  background-color: hsl(237deg 14% 28%);
+  padding: 1.5rem;
+}
+.images:hover {
+  background-color: #494952;
+  cursor: pointer;
+}
+
+.berry {
+  width: 27rem;
+  margin-top: 2rem;
+}
+.food {
+  background-image: url(/img/food.jpg);
+  width: 100%;
+  height: 15rem;
+  background-size: cover;
+  background-position: bottom;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  padding-top: 5rem;
+  padding-left: 1.5rem;
+}
+.text {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: white;
+  padding-top: 3rem;
+}
+.location {
+  color: white;
+  font-size: large;
+  font-weight: 500;
+}
+.menu {
+  width: 100%;
+  background-color: white;
+  margin-top: -0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  font-size: larger;
+}
+
+.number:hover {
+  cursor: pointer;
+  color: black;
+}
+.white {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid hsl(0deg 0% 95%);
+  color: hsl(206deg 5% 73%);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: large;
+  font-weight: 600;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.white:last-of-type {
+  border-bottom: none;
+}
